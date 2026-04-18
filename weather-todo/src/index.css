@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@theme {
+  --color-app-from: #dbeafe;
+  --color-app-via: #f8fafc;
+  --color-app-to: #f3e8ff;
+}
+
+html, body, #root {
+  min-height: 100vh;
+}
+
+body {
+  background: linear-gradient(135deg, var(--color-app-from) 0%, var(--color-app-via) 50%, var(--color-app-to) 100%);
+}
